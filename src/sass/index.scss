@@ -1,2 +1,15 @@
 @import './common';
-@import './example';
+@import './utils/base';
+@import './utils/variables';
+
+
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/whatwedo';
+@import './layouts/gifts';
+@import './layouts/registration';
+@import './layouts/blogs';
+@import './layouts/footer';
+
+
