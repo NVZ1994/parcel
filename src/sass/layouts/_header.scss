@@ -1,10 +1,11 @@
-.header {
+
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 116px;
-    padding: 27px;
-    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom:24px;
 }
 
 .logo {
