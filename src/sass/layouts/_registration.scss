@@ -9,9 +9,48 @@
    &__titel {
     display:none;
    }
+   &__subtitel {
+    font-size: 32px
+   }
+   &__text {
+    font-size: 32px
+   }
    &__list {
     display:flex;
     gap:16px;
+    margin: 0;
     
    }
+}
+.button__reg {
+    margin-top: 95px;
+    margin-bottom: 95px;
+    font-size: 18px;
+    min-width: 250px;
+    min-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition-property: background-color, color;
+    transition-duration: 550ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+    &--black {
+        color:$text-white;
+        background-color: $bgc-black;
+        &:hover, &:focus {
+            color:$text-black;
+            background-color: $bgc-orange; 
+        }
+    }
+
+    &--orange {
+        color:$text-black;
+        background-color: $bgc-orange;
+        &:hover, &:focus {
+            color:$text-white;
+            background-color: $bgc-black;
+        }
+    }
 }
