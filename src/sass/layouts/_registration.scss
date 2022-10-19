@@ -1,0 +1,17 @@
+.registration {
+    display:flex;
+    justify-content: space-between;
+    padding-left:235px;
+    padding-right: 235px;
+    align-items: center;
+
+   background-color: $bgc-orange;
+   &__titel {
+    display:none;
+   }
+   &__list {
+    display:flex;
+    gap:16px;
+    
+   }
+}
