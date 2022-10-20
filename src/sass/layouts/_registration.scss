@@ -1,19 +1,25 @@
+.registration_section{
+    background-color: $bgc-orange;
+}
+
 .registration {
     display:flex;
     justify-content: space-between;
-    padding-left:235px;
-    padding-right: 235px;
+    padding: 81px 235px 69px 235px;
     align-items: center;
 
-   background-color: $bgc-orange;
+    
    &__titel {
     display:none;
+    
    }
    &__subtitel {
-    font-size: 32px
+    font-size: 32px;
+    margin:0;
    }
    &__text {
-    font-size: 32px
+    font-size: 32px;
+    margin:0;
    }
    &__list {
     display:flex;
@@ -23,8 +29,6 @@
    }
 }
 .button__reg {
-    margin-top: 95px;
-    margin-bottom: 95px;
     font-size: 18px;
     min-width: 250px;
     min-height: 50px;
