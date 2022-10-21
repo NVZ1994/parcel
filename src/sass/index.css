@@ -150,7 +150,6 @@ a {
 
 .footer {
   background-color: #FAFAFA;
-  height: 410px;
 }
 
 .footer__nav {
@@ -160,11 +159,13 @@ a {
 }
 
 .footer__nav-list {
+  padding: 0;
   display: flex;
   width: 614px;
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 106px;
+  padding-bottom: 53px;
 }
 
 .footer__nav--left,
@@ -174,7 +175,7 @@ a {
 }
 
 .footer__nav--left {
-  gap: 81px;
+  gap: 79px;
 }
 
 .footer__nav--right {
@@ -196,6 +197,7 @@ a {
 }
 
 .footer__social {
+  padding: 0;
   display: flex;
   gap: 26px;
   margin: 56px auto 73px auto;
@@ -203,7 +205,6 @@ a {
 }
 
 .copyright {
-  width: 231px;
   margin-right: 40%;
   margin-left: 43%;
   display: flex;

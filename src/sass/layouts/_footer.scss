@@ -1,58 +1,72 @@
-.footer{
+.footer {
     background-color: $card-bgc;
-    height: 410px;
+
 }
 
-.footer__nav{
+.footer__nav {
     width: 1000px;
     border-bottom: 1px solid $bgc-black;
-    margin: 0 auto; 
+    margin: 0 auto;
+
 }
-.footer__nav-list{
+
+.footer__nav-list {
+    padding: 0;
     display: flex;
     width: 614px;
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 106px;
+    padding-bottom: 53px;
 }
+
 .footer__nav--left,
-.footer__nav--right{
+.footer__nav--right {
     display: flex;
     justify-content: space-between;
 
 }
-.footer__nav--left{
-    gap: 81px;
+
+.footer__nav--left {
+    gap: 79px;
 }
-.footer__nav--right{
-gap: 54px;
+
+.footer__nav--right {
+    gap: 54px;
 }
-.footer__nav-link{
-font-size: 14px;
-font-weight: 700;
-line-height: 1.4;
+
+.footer__nav-link {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
 }
-.footer-logo{
+
+.footer-logo {
     font-family: 'Homemade Apple';
     font-weight: 400;
-        font-size: 18px;
-        line-height: 2.17;
-        color: $text-orange;
+    font-size: 18px;
+    line-height: 2.17;
+    color: $text-orange;
 }
-.footer__social{
+
+.footer__social {
+    padding: 0;
     display: flex;
     gap: 26px;
     margin: 56px auto 73px auto;
     width: 294px;
 }
-.copyright{
-    width: 231px;
+
+.copyright {
+
     margin-right: 40%;
     margin-left: 43%;
     display: flex;
     gap: 14px;
 }
-.copyright-text{
+
+.copyright-text {
+
     font-size: 14px;
     line-height: 1.4;
     font-weight: 400;
