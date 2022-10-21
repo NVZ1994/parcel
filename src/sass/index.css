@@ -1,0 +1,218 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section__title {
+  font-size: 32px;
+  line-height: 1.1875;
+  text-align: center;
+  font-weight: normal;
+}
+
+.section__undertitle {
+  font-size: 18px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 116px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Homemade Apple";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 39px;
+}
+.logo__header {
+  margin-left: 80px;
+}
+
+.nav-site__list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+}
+.nav-site__item {
+  list-style: none;
+}
+.nav-site__link {
+  color: inherit;
+  font-size: 18px;
+  line-height: 1.2;
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-site__link:hover, .nav-site__link:focus {
+  color: #F7941E;
+}
+
+.button__header {
+  cursor: pointer;
+  color: #F7941E;
+  background-color: #FFFFFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 11px 25px;
+  margin-right: 34px;
+  border: 1px solid #F7941E;
+  border-radius: 5px;
+  transition-property: background-color, color;
+  transition-delay: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button__header:hover, .button__header:focus {
+  color: #000000;
+  background-color: #F7941E;
+}
+
+.hero-title {
+  color: red;
+}
+
+.gifts-container {
+  padding: 96px 135px 120px 135px;
+}
+
+.gifts__list {
+  margin: 0;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+}
+
+.gifts__item {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.gifts__item:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.gifts__item:focus {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.gifts__title {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+  padding-bottom: 74px;
+}
+
+.gifts__link {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.357;
+  margin: 0;
+  color: #000000;
+}
+
+.gifts__item-box {
+  padding: 24px;
+  background-color: #FAFAFA;
+}
+
+.footer {
+  background-color: #FAFAFA;
+}
+
+.footer__nav {
+  width: 1000px;
+  border-bottom: 1px solid #000000;
+  margin: 0 auto;
+}
+
+.footer__nav-list {
+  padding: 0;
+  display: flex;
+  width: 614px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 106px;
+  padding-bottom: 53px;
+}
+
+.footer__nav--left,
+.footer__nav--right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav--left {
+  gap: 79px;
+}
+
+.footer__nav--right {
+  gap: 54px;
+}
+
+.footer__nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.footer-logo {
+  font-family: "Homemade Apple";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.17;
+  color: #F7941E;
+}
+
+.footer__social {
+  padding: 0;
+  display: flex;
+  gap: 26px;
+  margin: 56px auto 73px auto;
+  width: 294px;
+}
+
+.copyright {
+  margin-right: 40%;
+  margin-left: 43%;
+  display: flex;
+  gap: 14px;
+}
+
+.copyright-text {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+}/*# sourceMappingURL=index.css.map */
