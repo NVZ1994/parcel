@@ -1,0 +1,51 @@
+.whatwedo {
+  background-color: $bgc-hero;
+  display: flex;
+  width: 1440px;
+  padding: 0;
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 719px;
+  }
+  &__wrap {
+    position: absolute;
+    width: 441px;
+    height: 332px;
+    top:15%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-weight: 400;
+    text-align: start;
+    width: 433px;
+    height: 206px;
+    font-size: 32px;
+    line-height: 1.4;
+  }
+  &__text {
+    width: 422px;
+    height: 57px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  &__button {
+    border-radius: 4px;
+    color: $bgc-orange;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    padding: 13px 24px 15px 38px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $bgc-hero;
+    cursor: pointer;
+    color:$text-orange;
+    border: 1px solid $bgc-orange;
+  }
+}
