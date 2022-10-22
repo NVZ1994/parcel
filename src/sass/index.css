@@ -119,6 +119,7 @@ a {
 }
 
 .hero {
+  padding: 0;
   background-color: #F1F1F2;
   display: flex;
   width: 1440px;
@@ -154,6 +155,7 @@ a {
   line-height: 1.4;
 }
 .hero__button {
+  cursor: pointer;
   border-radius: 4px;
   color: #FFFFFF;
   width: 200px;
@@ -167,6 +169,58 @@ a {
   background-color: #F7941E;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border: none;
+}
+
+.whatwedo {
+  background-color: #F1F1F2;
+  display: flex;
+  width: 1440px;
+  padding: 0;
+}
+.whatwedo__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 719px;
+}
+.whatwedo__wrap {
+  position: absolute;
+  width: 441px;
+  height: 332px;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.whatwedo__title {
+  font-weight: 400;
+  text-align: start;
+  width: 433px;
+  height: 206px;
+  font-size: 32px;
+  line-height: 1.4;
+}
+.whatwedo__text {
+  width: 422px;
+  height: 57px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.whatwedo__button {
+  border-radius: 4px;
+  color: #F7941E;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  padding: 13px 24px 15px 38px;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #F1F1F2;
+  cursor: pointer;
+  color: #F7941E;
+  border: 1px solid #F7941E;
 }
 
 .gifts-container {

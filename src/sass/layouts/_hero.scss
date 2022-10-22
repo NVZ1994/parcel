@@ -1,4 +1,5 @@
 .hero {
+  padding: 0;
   background-color:$bgc-hero;
   display: flex;
   width: 1440px;
@@ -33,6 +34,7 @@
     line-height: 1.4;
   }
   &__button {
+    cursor: pointer;
     border-radius: 4px;
     color: $text-white;
     width: 200px;
