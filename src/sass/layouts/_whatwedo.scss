@@ -14,7 +14,7 @@
     position: absolute;
     width: 441px;
     height: 332px;
-    top:15%;
+    top: 15%;
     display: flex;
     flex-direction: column;
   }
@@ -45,7 +45,17 @@
     text-transform: uppercase;
     background-color: $bgc-hero;
     cursor: pointer;
-    color:$text-orange;
+    color: $text-orange;
     border: 1px solid $bgc-orange;
+
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: $text-black;
+      background-color: $bgc-orange;
+    }
   }
 }

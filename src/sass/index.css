@@ -221,6 +221,13 @@ a {
   cursor: pointer;
   color: #F7941E;
   border: 1px solid #F7941E;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.whatwedo__button:hover, .whatwedo__button:focus {
+  color: #000000;
+  background-color: #F7941E;
 }
 
 .gifts-container {
